@@ -1,0 +1,101 @@
+.admin-btns {
+	display: flex;
+	flex-direction: row;
+
+	column-gap: 10px;
+}
+
+.admin-view-btn.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--color-heading-dark);
+	color: var(--color-background);
+	border: none;
+	cursor: pointer;
+	width: 80px;
+	height: 30px;
+}
+
+.admin-delete-btn.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #8b0000;
+	color: var(--color-background);
+	border: none;
+	cursor: pointer;
+	width: 80px;
+	height: 30px;
+}
+
+.small.admin-delete-btn.btn:focus,
+.admin-delete-btn.btn:hover,
+.admin-delete-btn.btn:active,
+.admin-delete-btn.btn:visited {
+	background-color: #8b0000 !important;
+	color: var(--color-background);
+}
+
+.small.admin-view-btn.btn:focus,
+.admin-view-btn.btn:hover,
+.admin-view-btn.btn:active,
+.admin-view-btn.btn:visited {
+	background-color: var(--color-heading-dark) !important;
+	color: var(--color-background);
+}
+
+.admin-edit-btn.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: transparent;
+	color: var(--color-light-accent-green);
+	border: 1px solid var(--color-light-accent-green);
+	cursor: pointer;
+	width: 80px;
+	height: 30px;
+}
+
+.admin-edit-btn.btn:focus,
+.admin-edit-btn.btn:hover,
+.admin-edit-btn.btn:active,
+.admin-edit-btn.btn:visited {
+	background-color: transparent !important;
+	color: var(--color-light-accent-green);
+	border: 1px solid var(--color-light-accent-green);
+}
+
+thead {
+	background-color: var(--color-heading-dark);
+	padding: 0px;
+}
+
+th p.small-bold {
+	margin-bottom: 0px;
+	color: var(--color-background);
+}
+
+div.content {
+	margin-top: -1px;
+	padding: 0px;
+}
+
+thead {
+	margin-top: -1px;
+}
+.admin-action-col {
+	display: flex;
+	flex-grow: 1;
+
+	margin-right: 0px;
+	padding: 0px;
+}
+
+.admin-col {
+	display: flex;
+	flex-grow: 2;
+}

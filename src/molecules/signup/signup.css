@@ -1,0 +1,88 @@
+Modal {
+    max-width: 350px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-background);
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+.fullname-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+input {
+    border-bottom: 1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    padding: 5px;
+    background-color: var(--color-background);
+}
+
+.signup-container {
+    max-width: 3500px;
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    margin: 0px;
+    border: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-container-createAccount {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.signinButton.btn {
+    color: var(--color-light-accent-green);
+    background-color: transparent;
+    opacity: 75%;
+    border: none;
+    cursor: pointer;
+}
+.signinButton.btn:focus, .signinButton.btn:hover, .signinButton.btn:active, .signinButton.btn:visited{
+    background-color: transparent !important;
+    color: var(--color-light-accent-green) !important;
+}
+
+p.large-bold {
+    color: var(--color-light-accent-green);
+}
+
+.signup-btn.btn {
+    background-color: var(--color-light-accent-green);
+    border: none;
+    cursor: pointer;
+}
+
+.signup-btn.btn:focus, .signup-btn.btn:hover, .signup-btn.btn:active, .signup-btn.btn:visited{
+    background-color: var(--color-light-accent-green) !important;
+    color: var(--color-background);
+}
+
+.mb-3 {
+    margin-bottom: 0px !important;
+    padding: 0px;
+}

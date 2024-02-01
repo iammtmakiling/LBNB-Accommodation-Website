@@ -1,0 +1,18 @@
+/* .color-blue {
+    color: blue;
+} */
+
+.tiny.termsBtn{
+    color: var(--color-heading-dark);
+    font-style: none;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.tiny.termsBtn:focus,
+.tiny.termsBtn:hover,
+.tiny.termsBtn:active,
+.tiny.termsBtn:visited{
+  background-color: var(--color-background) !important;
+  color: var(--color-heading-dark) !important;
+}

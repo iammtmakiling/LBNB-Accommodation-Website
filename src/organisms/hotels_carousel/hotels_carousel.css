@@ -1,0 +1,27 @@
+.hotel-carousel-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.hotels-prev-button {
+    margin-right: -250px !important;
+
+}
+
+.hotels-next-button {
+    margin-left: -250px !important;
+}
+
+a.carousel-control-next, a.carousel-control-prev {
+    width: 10px;
+}

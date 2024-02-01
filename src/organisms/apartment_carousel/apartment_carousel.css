@@ -1,0 +1,31 @@
+.apartment-carousel-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    width:80%;
+    text-align: center;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+/* .prev-button {
+    margin-right: 200px;
+} */
+
+a.carousel-control-next, a.carousel-control-prev {
+    width: 10px;
+}
+
+/* .next-button {
+    margin-left: 200px;
+    width: 10px;
+} */

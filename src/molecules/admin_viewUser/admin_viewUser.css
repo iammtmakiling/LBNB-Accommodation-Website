@@ -1,0 +1,74 @@
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px !important;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.adminviewuser-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.adminviewuser-profileImage {
+  height: 150px;
+  width: 150px;
+}
+
+.adminviewuser-top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.adminviewuser-item {
+  display: flex;
+  flex-direction: row;
+
+  column-gap: 10px;
+  padding: 5px;
+}
+
+.adminviewuser-item p {
+  margin-bottom: 0px;
+}
+
+.adminviewuser-items {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.adminedituser.btn {
+  background-color: var(--color-light-accent-green);
+  border: none;
+  cursor: pointer;
+  width: 100px;
+}
+
+.adminedituser.btn:focus,
+.adminedituser.btn:hover,
+.adminedituser.btn:active,
+.adminedituser.btn:visited {
+  background-color: var(--color-light-accent-green) !important;
+  color: var(--color-background);
+}
+
+.admincancel.btn {
+  width: 100px;
+}

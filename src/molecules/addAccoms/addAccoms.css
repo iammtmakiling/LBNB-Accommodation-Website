@@ -1,0 +1,132 @@
+div.addAccomsModal.modal-body{
+  display: flex;
+  width: 700px;
+}
+
+.add-accoms-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+
+  padding: 20px;
+  justify-content: center;
+  align-self: center;
+
+  width: 100%;
+  margin: 0px;
+}
+
+div.col-4{
+  width: 20%;
+}
+
+p.large-bold {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.input-item {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+p.small.light-green.addAccoms {
+  margin-bottom: 0px;
+  width: 30px;
+}
+
+Container p.large-bold {
+  text-align: center;
+}
+
+.userProfile_Container_left_photoAddAccom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  overflow: hidden;
+}
+
+.userProfile_Container_left_photoAddAccom img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.input-add-accoms {
+  border: 1px solid var(--color-light-accent-green);
+  width: 100%;
+  border-radius: 25px;
+}
+
+.input-add-accoms.description {
+  border: 1px solid var(--color-light-accent-green);
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 100px; /* Set a minimum height for the textarea */
+  overflow: auto; /* Add scrollbars if needed */
+}
+
+p.small.light-green {
+  color: var(--color-light-accent-green);
+}
+
+.add-accoms-btn.btn {
+  background-color: var(--color-light-accent-green);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.add-accoms-btn.btn:focus,
+.add-accoms-btn.btn:hover,
+.add-accoms-btn.btn:active,
+.add-accoms-btn.btn:visited {
+  background-color: var(--color-light-accent-green) !important;
+  color: var(--color-background);
+}
+
+.custom-radio .form-check-input[type="radio"] {
+  /* Hide the default radio button */
+  display: none;
+}
+
+.custom-radio .form-check-input[type="radio"] + .form-check-label:before {
+  /* Define the custom radio button */
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  margin-left: -15px;
+  border: 2px solid var(--color-secondary-black); /* Border color for unchecked state */
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--color-background);
+}
+
+.custom-radio
+  .form-check-input[type="radio"]:checked
+  + .form-check-label:before {
+  /* Styles for the checked radio button */
+  background-color: var(
+    --color-light-accent-green
+  ); /* Fill color for checked state */
+  border-color: var(
+    --color-light-accent-green
+  ); /* Border color for checked state */
+  color: var(--color-background);
+}

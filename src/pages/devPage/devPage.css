@@ -1,0 +1,58 @@
+.devpage-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.member_section {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.header1.bold.light-green {
+  color: #1c3103 !important;
+  font-weight: bold;
+}
+
+.header3.bold {
+  color: var(--color-heading-dark);
+  font-weight: bold;
+}
+
+.team-members-list {
+  display: flex;
+  flex-direction: column;
+
+  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: row;
+
+  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-listb {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 20px;
+  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+.r-add-style{
+    /* color:var(--color-light-accent-green); */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    align-items: center;
+    background: var(--color-light-accent-green);
+    border: 0;
+    color: var(--color-background);
+    cursor: pointer;
+    font-family: var(--font-family-text);
+    font-size: 14px;
+    justify-content: center;
+}
+
+.r-add-style:hover,
+.r-add-style:focus { 
+  background-color: var(--color-heading-dark);
+  color: #ffffff;
+}

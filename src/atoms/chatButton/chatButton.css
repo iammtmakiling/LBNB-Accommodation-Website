@@ -1,0 +1,26 @@
+.chat-button{
+    align-items: center;
+    background: var(--color-light-accent-green);
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: var(--color-background);
+    cursor: pointer;
+    font-family: var(--font-family-text);
+    font-size: 16px;
+    justify-content: center;
+    /* overflow: hidden; */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-top: 20px; */
+    margin-left: 10px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+
+.chat-button:hover,
+.chat:focus { 
+background-color: var(--color-heading-dark);
+color: #ffffff;
+}

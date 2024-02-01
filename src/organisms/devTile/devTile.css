@@ -1,0 +1,100 @@
+.devtile-container {
+  display: flex;
+  width: 300px;
+
+  /* padding: 20px; */
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: var(--color-light-accent-green) solid 4px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.devtile-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+}
+
+.small.center.team {
+  color: var(--color-yellow-accent);
+  font-style: italic;
+}
+
+.devtile-card-upper {
+  display: flex;
+}
+
+.devtile-card-upper img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  object-position: top;
+  margin-top: -50px;
+}
+
+.devtile-card-lower {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.regular-bold.center {
+  margin-top: -5px;
+  margin-bottom: -3px;
+  color: var(--color-light-accent-green);
+}
+.small.devtile-description {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+.devtile_links {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+
+.devtile_logos {
+  display: flex;
+  flex-direction: row;
+
+  column-gap: 10px;
+}
+
+.devtile_icon {
+  height: 30px;
+  width: 30px;
+  color: var(--color-light-accent-green);
+  transition: color 0.3s ease;
+}
+.devtile-card-upper {
+  position: relative;
+  overflow: hidden;
+}
+
+.devtile-card-upper img {
+  transition: transform 0.3s ease-out;
+}
+
+.devtile-card-upper:hover img {
+  transform: scale(1.1);
+}
+
+.link:hover .devtile_icon {
+  transition: transform 0.3s ease-out;
+  color: #1c3103 !important;
+  transform: translateY(-3px);
+}
+
+.link {
+  color: inherit;
+}

@@ -1,0 +1,147 @@
+Modal {
+  max-width: 350px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-background);
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-background);
+
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px; */
+}
+
+.inactive-content {
+  display: none;
+}
+
+input {
+  border-bottom: 1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  padding: 5px;
+  background-color: var(--color-background);
+}
+
+.report-container {
+  max-width: 3500px;
+  min-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 10px; */
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  border: none;
+}
+
+.login-container-createAccount {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container-createAccount p {
+  margin-bottom: 0px;
+}
+
+.createButton.btn {
+  color: var(--color-light-accent-green);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.createButton.btn:focus,
+.createButton.btn:hover,
+.createButton.btn:active,
+.createButton.btn:visited {
+  background-color: transparent !important;
+  color: var(--color-light-accent-green) !important;
+}
+
+p.large-bold {
+  color: var(--color-light-accent-green);
+}
+
+.report-btn.btn {
+  background-color: var(--color-light-accent-green);
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.report-btn-2.btn {
+  background-color: transparent;
+  color: var(--color-light-accent-green);
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.report-btn-2.btn:focus,
+.report-btn-2.btn:hover,
+.report-btn-2.btn:active {
+  background-color: transparent !important;
+  color: var(--color-light-accent-green);
+}
+
+p.tiny.center-text {
+  text-align: center;
+}
+
+.report-btn.btn:focus,
+.report-btn.btn:hover,
+.report-btn.btn:active,
+.report-btn.btn:visited {
+  background-color: var(--color-light-accent-green) !important;
+  color: var(--color-background);
+}
+
+.report-textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 20px;
+  resize: none;
+  overflow: hidden;
+  outline-color: transparent;
+
+  margin-top: 20px;
+  font-family: var(--font-family-text);
+}
+
+p.reason-text.regular-bold {
+  width: 100%;
+  color: var(--color-light-accent-green);
+}
+
+p.reason-text-2.regular-bold {
+  width: 100%;
+  color: var(--color-light-accent-green);
+  text-align: center;
+}
+.report-textarea:focus,
+.report-textarea:active,
+.report-textarea:hover {
+  outline-color: var(--color-light-accent-green) !important;
+  font-family: var(--font-family-text);
+}

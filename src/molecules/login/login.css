@@ -1,0 +1,113 @@
+Modal {
+    max-width: 350px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+div.login.modal-body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-background);
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-background);
+    
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px; */
+}
+
+
+.inactive-content {
+    display: none;
+}
+
+input {
+    border-bottom: 1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    height: 40px;
+    height: 450px;
+    
+    padding: 10px;
+    background-color: var(--color-background);
+    text-indent: 10px;
+}
+
+.login-container {
+    max-width: 3500px;
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    margin: 0px;
+    border: none;
+}
+
+.login-container-createAccount {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container-createAccount p {
+    margin-bottom: 0px;
+}
+
+.createButton.btn {
+    color: var(--color-light-accent-green);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.createButton.btn:focus, .createButton.btn:hover, .createButton.btn:active, .createButton.btn:visited{
+    background-color: transparent !important;
+    color: var(--color-light-accent-green) !important;
+}
+
+p.large-bold {
+    color: var(--color-light-accent-green);
+}
+
+.login-btn.btn {
+    background-color: var(--color-light-accent-green);
+    border: none;
+    cursor: pointer;
+}
+
+.login-btn.btn:focus, 
+.login-btn.btn:hover, 
+.login-btn.btn:active, 
+.login-btn.btn:visited{
+    background-color: var(--color-light-accent-green) !important;
+    color: var(--color-background) !important;
+}
+
+button.signup-btn.btn.btn-primary:focus,
+button.signup-btn.btn.btn-primary:hover, 
+button.signup-btn.btn.btn-primary:active, 
+button.signup-btn.btn.btn-primary:visited{
+    background-color: var(--color-heading-dark) !important;
+    color: var(--color-background) !important;
+}
+
+
+
+.terms-div {
+    margin-top: 5px;
+}

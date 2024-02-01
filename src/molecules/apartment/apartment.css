@@ -1,0 +1,70 @@
+.apartment-carousel-container {
+    display: flex;
+    width: 100%;
+
+    padding: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.apartment-title.large-bold{
+    text-align: left;
+}
+.carousel-lower {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-content: center;
+}
+
+.carousel-lowerleft {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    align-content: flex-start;
+}
+
+.carousel-lowerleft p {
+    max-width: 400px;
+}
+
+.carousel-lowerright {
+    display: flex;
+    flex-direction: column;
+
+    align-content: flex-start;
+    justify-content: center;
+}
+.carousel-upper img {
+    width: 300px; 
+    height: 350px;
+    object-fit: cover;
+}
+
+.carousel-btn {
+    background-color: var(--color-light-accent-green);
+    color: var(--color-background);
+
+    width: 150px;
+    min-width: 150px;
+
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel-btn:focus, .carousel-btn:hover, .carousel-btn:active, .carousel-btn:visited{
+    background-color: var(--color-light-accent-green);
+    color: var(--color-background);
+}

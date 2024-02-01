@@ -1,0 +1,67 @@
+.dorm-carousel-container{
+    display: flex;
+    width: 100%;
+
+    padding: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.dorm-carousel-card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 600px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.dorm-carousel-card-upper{
+    display: flex;
+}
+
+.zoom-in-effect {
+display: inline-block;
+transition: transform 0.3s ease;
+}
+
+.zoom-in-effect:hover {
+transform: scale(1.01);
+}
+  
+/* 
+.dorm-btn{
+    justify-self: center;
+    align-items: flex-end;
+} */
+
+.dorm-carousel-card-upper img {
+    width: 300px; 
+    height: 250px;
+    object-fit: cover;
+}
+
+.dorm-carousel-card-lower{
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    row-gap: 5px;
+    padding: 20px;
+}
+
+.dorm-carousel-card-lowest{
+    display: flex;
+
+    /* height: 100px; */
+    /* width: 250px; */
+    /* flex-grow: 1; */
+    justify-self: center;
+    align-self: flex-end;
+    padding: 20px;
+}
+
+.small.dorm-description{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
+}

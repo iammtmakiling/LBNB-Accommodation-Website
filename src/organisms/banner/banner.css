@@ -1,0 +1,44 @@
+
+
+.carousel-body {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    /* position: fixed; */
+
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+img {
+    object-fit: cover !important;
+    width: 1000px;
+    height: 600px;
+}
+
+Carousel {
+    z-index: -1;
+}
+
+Carousel.Item{
+    opacity:0;
+    transition: opacity 1s !important;
+    z-index: -1;
+
+    width: 1000px;
+    height: 600px;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+
+  }
+Carousel.Item{
+    opacity:1;
+    transition: opacity 1s !important;
+}
+
+
+

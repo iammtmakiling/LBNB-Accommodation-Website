@@ -1,0 +1,31 @@
+/* CSS */
+.view-more-button {
+    align-items: center;
+    background: var(--color-light-accent-green);
+    border: 0;
+    border-radius: 23.4px;
+    box-sizing: border-box;
+    box-shadow: 0px 2.34px 18.72px rgba(0, 0, 0, 0.2);
+    color: var(--color-background);
+    cursor: pointer;
+    font-family: var(--font-family-text);
+    font-size: 23.4px;
+    justify-content: center;
+    /* line-height: 20px; */
+    max-width: 223.47px;
+    min-width: 223.47px;
+    height: 56.16px;
+    /* overflow: hidden; */
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    /* touch-action: manipulation; */
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    
+  }
+  
+.view-more-button:hover,
+.view-more-button:focus { 
+    background-color: var(--color-heading-dark);
+    color: #ffffff;
+}

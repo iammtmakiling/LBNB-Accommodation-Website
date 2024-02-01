@@ -1,0 +1,58 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardlist-flex {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.home-carousel-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reports-btn {
+  justify-content: center;
+  display: flex;
+  margin-top: 25px;
+  padding: 0;
+}
+
+.noResultsContainer{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+p.header4.noResultText{
+  font-weight: bold;
+  color: var(--color-heading-dark) !important;
+}
+.NotFound{
+  padding-top: -50;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.Searching{
+  padding-top: -50;
+  max-width: 700px;
+  max-height: 100%;
+}
+/* .search-list {
+    display: flex;
+    flex-direction: column;
+    column-gap: 200px;
+} */

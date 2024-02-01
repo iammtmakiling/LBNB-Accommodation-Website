@@ -1,0 +1,110 @@
+/* client/src/pages/chat/styles.module.css */
+/*
+color palette:
+F9F6F2 - white
+FCF186 - light yellow
+F0AF01 - orange
+1C3103 - dark green
+9CAA64 - green
+435711 - light green
+404040 - gray
+191919 - black
+B13C3F - red
+*/
+.chatContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    background-color: #9CAA64;
+    font-family: "Poppins";
+    color: #F9F6F2;
+    border-radius: 3%;
+  }
+  
+  /* Room and users component */
+  .roomAndUsersColumn {
+    
+    border-right: 2px dashed #dfdfdf;
+    width: 250px;
+  }
+  .roomTitle {
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #1C3103;
+    text-align: center;
+    font-weight: bold;
+  }
+  .usersTitle {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    color: #fff;
+  }
+  .usersList {
+    list-style-type: none;
+    padding-left: 40px;
+    margin-bottom: 60px;
+    color: #FCF186;
+  }
+  .usersList li {
+    margin-bottom: 12px;
+  }
+  
+  /* Messages */
+  .messagesColumn {
+    height: 85vh;
+    overflow: auto;
+    padding: 10px 10px 10px 40px;
+  }
+  .message {
+    background: #435711;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    max-width: 600px;
+    padding: 12px;
+  }
+  .msgMeta {
+    color: #9CAA64;
+    font-size: 0.75rem;
+  }
+  .msgText {
+    color: #fff;
+  }
+  
+  /* Message input and button */
+  .sendMessageContainer {
+    padding: 16px 20px 20px 16px;
+  }
+  .messageInput {
+    padding: 14px;
+    margin-right: 16px;
+    width: 60%;
+    border-radius: 6px;
+    height:40%;
+    border: 1px solid #F9F6F2;
+    font-size: 0.9rem;
+  }
+  .btnoutline{
+    text-align: center;
+    margin-left:80px;
+    padding:10px;
+    font-family: "Poppins";
+    font-size: 20px;
+    color: #F9F6F2;
+    border: 1px solid #F9F6F2;
+    border-radius: 20;
+  }
+  .btnprimary{
+    text-align: center;
+    margin-left:20px;
+    padding:10px;
+    font-family: "Poppins";
+    font-size: 20px;
+    color: #F9F6F2;
+    border: 1px solid #F9F6F2;
+    border-radius: 20;
+  }

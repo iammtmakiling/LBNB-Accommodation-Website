@@ -1,0 +1,22 @@
+.whole-screen {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    pointer-events: none;
+  }
+  
+  Fab {
+    pointer-events: auto;
+  }
+
+  .icon-add{
+    color: var(--color-light-accent-green);
+    width: 100px;
+    height: 100px;
+    pointer-events: auto;
+  }

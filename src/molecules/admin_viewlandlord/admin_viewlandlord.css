@@ -1,0 +1,232 @@
+.no-arrows::-webkit-inner-spin-button,
+.no-arrows::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  height: 30px;
+}
+
+.phone-number-input {
+  white-space: nowrap;
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px !important;
+
+  justify-content: center;
+  align-items: center;
+}
+
+div.modal-content {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.adminviewlandlord-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.adminviewlandlord-profileImage {
+  height: 150px;
+  width: 150px;
+}
+
+.adminviewlandlord-top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.adminviewlandlord-item {
+  display: flex;
+  flex-direction: row;
+
+  column-gap: 10px;
+}
+
+.adminviewlandlord-item p {
+  margin-bottom: 0px;
+}
+
+.adminviewlandlord-items {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.admineditlandlord.btn {
+  background-color: var(--color-light-accent-green);
+  border: none;
+  cursor: pointer;
+  width: 100px;
+}
+
+.admineditlandlord.btn:hover {
+  background-color: var(--color-heading-dark) !important;
+  color: var(--color-background);
+}
+
+.adminsavelandlord.btn {
+  background-color: transparent;
+  color: var(--color-light-accent-green);
+  border: 1px solid var(--color-light-accent-green);
+  cursor: pointer;
+  width: 100px;
+}
+
+.adminsavelandlord.btn:hover {
+  background-color: transparent !important;
+  color: var(--color-heading-dark);
+  border: 1px solid var(--color-heading-dark);
+}
+
+.adminviewlandlord-left {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 400px;
+
+  flex-grow: 1;
+  border: 1px solid var(--color-light-accent-green);
+  border-radius: 10px;
+}
+
+.adminviewlandlord-right {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  height: 400px;
+  flex-grow: 2;
+  margin-left: 20px;
+}
+
+.adminviewlandlord-right-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding-bottom: 20px;
+}
+
+.adminviewlandlord-right-bottom {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 3;
+
+  width: 100%;
+}
+
+.small.adminviewlandlord-filter-dropdown {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-background);
+  background-color: var(--color-light-accent-green);
+  border: none;
+  width: 500px;
+}
+
+.adminviewlandlord-filter-dropdown-type {
+  color: var(--color-background);
+  background-color: var(--color-light-accent-green);
+  border: none;
+  width: 100%;
+}
+
+.small.adminviewlandlord-filter-dropdown-rooms {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-background);
+  background-color: var(--color-light-accent-green);
+  border: none;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.small.adminviewlandlord-filter-dropdown:focus,
+.small.adminviewlandlord-filter-dropdown:hover,
+.small.adminviewlandlord-filter-dropdown:active,
+.small.adminviewlandlord-filter-dropdown:visited,
+.small.adminviewlandlord-filter-dropdown-type:focus,
+.small.adminviewlandlord-filter-dropdown-type:hover,
+.small.adminviewlandlord-filter-dropdown-type:active,
+.small.adminviewlandlord-filter-dropdown-type:visited,
+.small.adminviewlandlord-filter-dropdown-rooms:focus,
+.small.adminviewlandlord-filter-dropdown-rooms:hover,
+.small.adminviewlandlord-filter-dropdown-rooms:active,
+.small.adminviewlandlord-filter-dropdown-rooms:visited {
+  color: var(--color-background);
+  background-color: var(--color-heading-dark);
+}
+
+.dropdown-item:active {
+  background-color: var(--color-background);
+}
+
+.small.adminviewlandlord-filter-dropdown-item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: var(--color-light-accent-green);
+  border: none;
+  width: 500px;
+}
+
+.adminviewlandlord-btns {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.adminviewlandlord-btns-left {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+
+  justify-content: center;
+  align-items: center;
+}

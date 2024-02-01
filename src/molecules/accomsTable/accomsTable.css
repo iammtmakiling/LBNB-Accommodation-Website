@@ -1,0 +1,27 @@
+.admin-btns {
+	display: flex;
+	flex-direction: row;
+
+	column-gap: 10px;
+}
+
+.admin-delete-btn.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #8b0000;
+	color: var(--color-background);
+	border: none;
+	cursor: pointer;
+	width: 80px;
+	height: 30px;
+}
+
+.small.admin-delete-btn.btn:focus,
+.admin-delete-btn.btn:hover,
+.admin-delete-btn.btn:active,
+.admin-delete-btn.btn:visited {
+	background-color: #8b0000 !important;
+	color: var(--color-background);
+}

@@ -1,0 +1,288 @@
+.mlf-container {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 5px;
+
+  align-items: center;
+  justify-content: center;
+  margin-top: -90px;
+  width: 100%;
+  padding: 100px;
+  padding-bottom: 0px;
+  z-index: 1;
+}
+
+.mlf-upper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mlf-lower {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index:1;
+}
+
+.divTable {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-background);
+    width: 100%;
+    height: 75px;
+
+    text-align: center;
+
+    /* border-collapse: collapse; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+  }
+  
+.divTableCell {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+
+  height: 75px;
+
+  justify-content: center;
+  align-items: center;
+
+  /* border: 0.0001em solid black; */
+  padding: 10px;
+
+  box-shadow: 0 3px 2px rgba(.1,.1,.1,.1);
+}
+
+div.mb-3{
+  margin-bottom: 0px !important; 
+}
+
+.divTableCell.search {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 150px;
+}
+
+.divTableCell.price {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+input.small.mlf_price{
+  margin-top: 0px;
+  width: 150px;
+  height: auto;
+}
+
+input.small.mlf_capacity{
+  margin-top: 0px;
+  width: 150px;
+  height: auto;
+}
+
+.icon {
+  width:35px;
+  height: 35px;
+  margin-right: 10px;
+  color: var(--color-secondary-black);
+}
+
+
+.mlf_icon {
+  width:25px;
+  height: 25px;
+  margin-right: 10px;
+  color: var(--color-secondary-black);
+}
+
+svg.icon.searchIcon {
+  z-index: 1;
+  width:30px;
+  height: 30px;
+  margin-left: -50px;
+  /* margin-top: 5px; */
+  color: var(--color-light-accent-green);
+}
+
+.searchButton{
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width:70px;
+  height: 40px;
+  margin-left: -80px;
+  margin-top: 5px;
+
+  color: var(--color-light-accent-green);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.searchButton:focus, 
+.searchButton:hover, 
+.searchButton:active,
+.searchButton:visited{
+  background-color: transparent !important;
+  border-style: none;
+  border:none;
+}
+
+svg.icon{
+  margin: 0px;
+}
+
+input.small.mlf_search{
+  z-index: 1;
+  width: 500px;
+  max-width: 500px;
+  height: 50px;
+  max-height: 50px;
+  border-bottom: none;
+  margin-top: 0px;
+  text-indent: 10px;
+  border-radius: 10px;
+}
+
+input.small.mlf_search::placeholder{
+  text-indent: 20px;
+}
+
+input.small.mlf_search:active{
+  border-style: none;
+}
+
+input::placeholder {
+  text-indent: 10px; /* Adjust the value as per your desired indent size */
+}
+
+.mlf_price{
+  max-width: 150px;
+  border-bottom: none;
+}
+
+/* .mlf_capacity{
+  width: 200px;
+  max-width: 200px;
+  border-bottom: none;
+} */
+
+.mb-3{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-bottom: 0;
+}
+
+.InElbi {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+div.InElbi-right {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.capacity {
+  padding: 10px;
+}
+
+.small.filter-dropdown{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color:  var(--color-secondary-black);
+  background-color: var(--color-background);
+  border: none;
+  width: 150px;
+}
+
+.small.filter-dropdown:active,
+.small.filter-dropdown:focus,
+.small.filter-dropdown:hover{
+  background-color: transparent !important;
+  color: var(--color-secondary-black);
+}
+
+
+a.dropdownItem.dropdown-item:active,
+a.dropdownItem.dropdown-item:focus,
+a.dropdownItem.dropdown-item:hover{
+  background-color: var(--color-light-accent-green) !important;
+  color: var(--color-background);
+}
+
+
+.carousel-btn.btn {
+  background-color: var(--color-light-accent-green);
+  color: var(--color-background);
+  min-width: 90px;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.carousel-btn.btn:focus, .carousel-btn.btn:hover, .carousel-btn.btn:active, .carousel-btn.btn:visited{
+  background-color: var(--color-heading-dark) !important;
+  color: var(--color-background);
+  border:none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.custom-radio .form-check-input[type='radio'] {
+  /* Hide the default radio button */
+  display: none;
+}
+
+.custom-radio .form-check-input[type='radio'] + .form-check-label:before {
+  /* Define the custom radio button */
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  margin-left: -15px;
+  border: 2px solid var(--color-secondary-black); /* Border color for unchecked state */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.custom-radio .form-check-input[type='radio']:checked + .form-check-label:before {
+  /* Styles for the checked radio button */
+  background-color: var(--color-light-accent-green); /* Fill color for checked state */
+  border-color: var(--color-light-accent-green); /* Border color for checked state */
+}
